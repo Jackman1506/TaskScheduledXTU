@@ -15,7 +15,7 @@ Change "PROFILE-NAME-GOES-HERE" to the name of the profile you'd like applied on
 > *C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe* <br/>
 
 <br> In the 'Add Arguments' box you will need to direct it to the location of your XTUapply.ps1 file.
-> -file "C:\Users\Jack\Documents\XTUapply.ps1" <br/>
+> -noprofile -executionpolicy unrestricted -file "C:\Users\Jack\Documents\XTUapply.ps1" <br/>
 
 <br> Leave everything unchecked in the 'Settings' and 'Conditions' tabs except for 'Allow task to be run on demand'. Click Okay to save the task.<br/>
 <br> If you have followed all of these steps, you can now reboot. You should see the PowerShell window open on boot. It will disappear after applying your chosen profile. <br/>
